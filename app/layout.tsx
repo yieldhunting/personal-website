@@ -18,7 +18,7 @@ export default function RootLayout({
         <Nav />
         <main className="pt-16">{children}</main>
         <footer className="border-t border-zinc-800 mt-24 py-8 text-center text-zinc-600 text-sm font-mono">
-          calum.a.macdonald@hotmail.com · built with Next.js · {new Date().getFullYear()}
+          calum.a.macdonald@hotmail.com · calummac.vercel.app · built with Next.js · {new Date().getFullYear()}
         </footer>
       </body>
     </html>
