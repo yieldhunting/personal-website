@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 const links = [
   { href: "/", label: "Home" },
   { href: "/cv", label: "CV" },
+  { href: "/writing", label: "Writing" },
   { href: "/perp-momentum", label: "Momentum Engine" },
   { href: "/market-structure", label: "Market Structure" },
   { href: "/factor-btc", label: "Factor / BTC" },
