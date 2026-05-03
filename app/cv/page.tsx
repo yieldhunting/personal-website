@@ -58,7 +58,6 @@ export default function CVPage() {
           <a href="mailto:calum.a.macdonald@hotmail.com" className="hover:text-zinc-300 transition-colors">
             calum.a.macdonald@hotmail.com
           </a>
-          <span>+44 7447 126950</span>
         </div>
         <div className="flex flex-wrap gap-3 mb-5">
           <a
@@ -127,7 +126,7 @@ export default function CVPage() {
         <SectionLabel>Education</SectionLabel>
         <div className="flex items-baseline justify-between flex-wrap gap-2">
           <span className="text-zinc-100 font-semibold">University of Edinburgh</span>
-          <span className="text-zinc-400 text-sm">Chemical Engineering</span>
+          <span className="text-zinc-400 text-sm">CertHE – Chemical Engineering</span>
         </div>
       </section>
 
