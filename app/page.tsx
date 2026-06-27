@@ -48,7 +48,7 @@ export default function Home() {
           Calum Macdonald
         </h1>
         <p className="text-xl text-zinc-400 max-w-2xl leading-relaxed mb-8">
-          Crypto analyst, trader, and writer — previously at Citadel and Damex, currently growth lead at Intuition. I cover markets, build data tools, and write compelling pieces about AI, data, and digital assets.
+          Crypto researcher, trader, and builder — previously at Citadel, Damex, and Intuition. I research protocols, trade liquid markets, build AI-powered investment tools, and write about new technologies.
         </p>
         <div className="flex flex-wrap gap-3">
           <a
