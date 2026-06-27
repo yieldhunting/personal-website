@@ -4,9 +4,21 @@ export const metadata = {
 
 const experience = [
   {
+    role: "Liquid Fund Analyst",
+    company: "The Spartan Group",
+    period: "April 2026 – May 2026",
+    bullets: [
+      "Contracted with a fundamental crypto hedge fund on discretionary market research, protocol analysis, data workflows, and investment tooling.",
+      "Produced original protocol research including an on-chain forensics investigation into Virtuals Protocol's ACP revenue layer, identifying a 6× gap between reported and verifiable throughput.",
+      "Built a multi-agent memo pipeline: CoinGecko/DeFiLlama ingestion → Claude for thesis synthesis and drafting → GPT for adversarial critique, bear-case generation, and IC scoring.",
+      "Built a Claude-powered Telegram signal classifier returning structured JSON (macro, narrative shift, flow, catalyst, risk, noise) — pre-filtering heuristics cut API costs 70%.",
+      "Built calummac.xyz — five live market systems (momentum engine, market structure monitor, factor long/short, options intelligence, AI-generated risk memo) pulling from Bybit, Binance, Deribit, and CoinGecko.",
+    ],
+  },
+  {
     role: "Growth Lead",
     company: "Intuition",
-    period: "August 2024 – Present",
+    period: "August 2024 – March 2026",
     bullets: [
       "Key player in the launch of $TRUST token, achieving day-one listings on Binance, Coinbase, Kraken, Upbit, KuCoin, and other major exchanges, debuting at a 9-figure fully diluted valuation with sustained trading volume.",
       "Grew X following from ~30K to 157K+ (5×) and supported testnet campaigns that drove 17.5M transactions from 900K+ unique accounts, contributing to 5.1M+ verified on-chain attestations.",
