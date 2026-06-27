@@ -17,6 +17,15 @@ const externalLinks = [
   },
 ];
 
+const essays = [
+  {
+    href: "/Open-Source-Open-Season.pdf",
+    label: "Open Source, Open Season: Why AI Has Broken DeFi's Risk Premium",
+    desc: "How AI has permanently altered DeFi's risk profile — and why the yield premium no longer compensates for a new, unquantifiable attack variable.",
+    tag: "ESSAY (PDF)",
+  },
+];
+
 export default function Writing() {
   return (
     <div className="max-w-3xl mx-auto px-4 py-16">
@@ -26,6 +35,31 @@ export default function Writing() {
         <p className="text-zinc-400 leading-relaxed">
           Writing on AI agents, knowledge infrastructure, crypto markets, and data systems.
         </p>
+      </div>
+
+      {/* Essays */}
+      <div className="mb-16">
+        <p className="font-mono text-xs text-zinc-500 uppercase tracking-widest mb-4">Essays</p>
+        <div className="flex flex-col gap-3">
+          {essays.map((link) => (
+            <a
+              key={link.href}
+              href={link.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-start justify-between gap-4 rounded-xl border border-zinc-800 bg-zinc-900/50 p-5 hover:border-zinc-600 hover:bg-zinc-900 transition-all"
+            >
+              <div>
+                <span className="font-mono text-xs text-blue-400 bg-blue-400/10 px-2 py-0.5 rounded mb-2 inline-block">
+                  {link.tag}
+                </span>
+                <h3 className="text-zinc-100 font-semibold mb-1">{link.label}</h3>
+                <p className="text-zinc-500 text-sm">{link.desc}</p>
+              </div>
+              <span className="text-zinc-600 group-hover:text-zinc-400 transition-colors pt-1 shrink-0">→</span>
+            </a>
+          ))}
+        </div>
       </div>
 
       {/* External publications */}
